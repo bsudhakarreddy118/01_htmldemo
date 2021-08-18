@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: orangered;
+    height: 15vh;
+}
+
+.branding{
+    flex: 1;
+}
+
+.branding img{
+    height: 10vh;
+    width: 10vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 1vw;
+}
+
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-left: 20vw;
+}
+
+.nav-links{
+    flex: 6;
+}
+
+.nav-links a{
+   text-decoration: none;
+   color: orangered;
+   font-weight: bolder;
+}
+
+.nav-links a:hover{
+    color: white;
+ }
+
+.enroll{
+    flex: 0.5;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid orangered;
+    width: 8vw;
+    margin-right: 1em;
+    padding: 0.5em;
+    font-weight: bolder;
+}
+
+/* Hero unit styling starts here */
+
+.herounit-container{
+    background: url(../images/bg.jpg);
+    height: 85vh;
+    color: white;
+
+}
+
+.hero-caption{
+    padding-top: 25vh;
+    margin-left: 5vw;
+}
+
+
+.hero-caption h1:nth-child(2){
+    font-size: 2.5em;;
+    color: orangered;
+}
+
+.herounit-mask{
+    background-color: rgba(0,0,0,.5);
+    height: 85vh;
+}
+
+/* Hero unit styling ends here */
+
+/* Paper layout styling starts*/
+
+.paper-layout-container{
+
+    display: grid;
+    justify-items: center;
+
+}
+
+.paper-layout-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5vw;
+}
+
+.paper{
+    text-align: center;
+    height: 45vh;
+    width: 20vw;
+    background-color: cornsilk;
+    border-radius: 1.5em;
+    box-shadow: 5px 5px 40px black;
+}
+
+.paper img{
+    height: 20vh;
+    width: 12vw;
+    border-radius: 5px;
+}

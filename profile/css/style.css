@@ -1,0 +1,105 @@
+header{
+    background-color: black;
+    color: orangered;
+    height: 12vh;
+    font-weight: bolder;
+    border-bottom: 2px solid orangered;
+    position: fixed;
+    width: 100%;
+}
+
+header h1{
+    margin: 0;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+}
+
+
+/* Section 1 styling starts */
+
+.section1{
+    text-align: center;
+    background: url(../images/bg1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 85vh;
+    color: cornsilk;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+
+}
+
+.section1 h2{
+    margin-top: 5vh;    
+}
+
+.section1 img{
+    border-radius: 50%;
+    width: 20vw;
+    height: auto;
+    margin-top: 2vh;
+    border: 1px solid orangered;
+    box-shadow: 5px 5px 25px orangered;
+    /* transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out; */
+    transition: transform 1s ease-out;
+}
+
+.section1 img:hover{
+    transform: scale(1.5, 1.5);
+}
+
+.section1 p{
+    text-align: center;
+    width: 60vw;
+    margin: 5vh auto;
+}
+
+.section1 #profile-link{
+    display: block;
+    text-decoration: none;
+    background-color: orangered;
+    color: cornsilk;
+    border-radius: 10px;
+    width: 8vw;
+    margin: 5vh auto;
+    border: 1px solid white;
+    padding: .4em .3em;
+    font-size: 1.25em;
+    
+}
+
+.section1 #profile-link:hover{
+    background-color: cornsilk;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+
+
+#section2{
+
+    background: url(../images/bg2.jpg);
+    background-size: cover;
+    height: 85vh;
+    color: cornsilk;
+    padding-top: 55vh;
+    padding-left: 5vw;
+
+}
+
+
+footer{
+    background-color: black;
+    color: cornsilk;
+    height: 15vh;
+    padding-top: 1.5em;
+    border-top: 2px solid orangered;
+}
+
+footer h2{
+
+    margin: 0;
+}
